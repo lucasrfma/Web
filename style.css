@@ -1,0 +1,107 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Helvetica Neue, Arial, sans-serif;
+    font-size: 18px;
+}
+
+h1,h2
+{
+    color: rgb(39, 139, 89);
+}
+
+h1 
+{
+    font-size: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h2
+{
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.bigBox
+{
+    margin: 20px auto 0 auto;
+    width: 1140px;
+}
+
+.mainBody
+{
+    /* background-color: paleturquoise; */
+    width: 75%;
+    float: left;
+    padding: 0 30px 0 30px;
+    border-right: 1px solid gray;
+    position: relative;
+}
+
+.mainBody img
+{
+    height: 150px;
+    width: auto;
+}
+
+.otherPosts
+{
+    /* background-color: cadetblue; */
+    width: 25%;
+    float: left;
+    padding: 0 30px 0 30px;
+}
+
+.links
+{
+    margin-top: 15px;
+}
+
+.main-text
+{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.bottom
+{
+    /* background-color: darkcyan; */
+    font-size: 22px;
+    border-top: 1px solid gray;
+    padding: 0 30px 0 30px;
+}
+
+.bottom img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    float: left;
+    margin: 15px 0 15px 0;
+}
+
+.author
+{
+    float: left;
+    margin: 95px 0 0 20px;
+}
+
+.clearfix::after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.date
+{
+    position: absolute;
+    top: 40px;
+    right: 30px;
+}
